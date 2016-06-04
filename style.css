@@ -1,4 +1,26 @@
 body {
-  background: black; }
+  background: #262626;
+  font-family: helvetica, ariel, sans-serif; }
+
+header {
+  margin: 20px 0 0 5%; }
+
+p {
+  margin: 20px 5%; }
+
+h1 {
+  color: #708C87; }
+
+h2 {
+  color: #708C87;
+  margin: 10px 10%; }
+
+a {
+  color: #708C87; }
+
+.grad {
+  padding: 1%;
+  background-color: #F2EFEB;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#fff)); }
 
 /*# sourceMappingURL=style.css.map */
