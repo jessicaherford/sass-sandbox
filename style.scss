@@ -1,12 +1,24 @@
+$blue: #708C87;
+$margin: 5%;
+$cream: #F2EFEB;
+$cream2: $cream - 100;
+
+
+
 body { background: #262626; font-family: helvetica, sans-serif;}
-header {margin: 20px 0 0 5%;}
-p {margin: 20px 5%;}
-h1 { color: #708C87;}
-h2 {color: #708C87; margin: 10px 10%; }
-a { color: #708C87;}
+header {margin: 20px 0 0 $margin;}
+p {margin: 20px $margin;}
+h1 { color: $blue;}
+h2 {color: $blue; margin: 10px $margin + 5%; }
+a { color: $blue;}
 
 .grad {
   padding: 1%;
   background-color: #F2EFEB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#fff));
+  background-image: -webkit-linear-gradient(top, $cream, $cream2);
+  background-image: -moz-linear-gradient(top, $cream, $cream2);
+  background-image: -ms-linear-gradient(top, $cream, $cream2);
+  background-image: -o-linear-gradient(top, $cream, $cream2);
+
 }
