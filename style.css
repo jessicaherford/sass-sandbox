@@ -4,16 +4,14 @@ body {
 
 header {
   margin: 20px 0 0 5%; }
+  header h1 {
+    color: #708C87; }
+  header h2 {
+    color: #708C87;
+    margin: 10px 10%; }
 
 p {
   margin: 20px 5%; }
-
-h1 {
-  color: #708C87; }
-
-h2 {
-  color: #708C87;
-  margin: 10px 10%; }
 
 a {
   color: #708C87; }
@@ -26,5 +24,7 @@ a {
   background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
+  .grad .part1 a {
+    font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

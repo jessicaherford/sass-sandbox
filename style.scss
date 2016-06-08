@@ -6,10 +6,13 @@ $cream2: $cream - 100;
 
 
 body { background: #262626; font-family: helvetica, sans-serif;}
-header {margin: 20px 0 0 $margin;}
+header { margin: 20px 0 0 $margin;
+  h1 { color: $blue;}
+  h2 {color: $blue; margin: 10px $margin + 5%; }
+}
+
 p {margin: 20px $margin;}
-h1 { color: $blue;}
-h2 {color: $blue; margin: 10px $margin + 5%; }
+
 a { color: $blue;}
 
 .grad {
@@ -20,5 +23,7 @@ a { color: $blue;}
   background-image: -moz-linear-gradient(top, $cream, $cream2);
   background-image: -ms-linear-gradient(top, $cream, $cream2);
   background-image: -o-linear-gradient(top, $cream, $cream2);
-
+  .part1 {
+   a { font-size: 20px;}
+   }
 }
