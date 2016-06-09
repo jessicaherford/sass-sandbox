@@ -23,7 +23,7 @@ a { color: $blue;}
   background-image: -moz-linear-gradient(top, $cream, $cream2);
   background-image: -ms-linear-gradient(top, $cream, $cream2);
   background-image: -o-linear-gradient(top, $cream, $cream2);
-  .part1 {
+  .part1 { color: $blue;
    a { font-size: 20px;}
    }
 }

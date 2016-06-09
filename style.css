@@ -24,7 +24,9 @@ a {
   background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
-  .grad .part1 a {
-    font-size: 20px; }
+  .grad .part1 {
+    color: #708C87; }
+    .grad .part1 a {
+      font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
