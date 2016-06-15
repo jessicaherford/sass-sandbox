@@ -17,6 +17,9 @@ a {
   color: #708C87; }
 
 .grad {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   padding: 1%;
   background-color: #F2EFEB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#fff));

@@ -3,6 +3,11 @@ $margin: 5%;
 $cream: #F2EFEB;
 $cream2: $cream - 100;
 
+@mixin border-radius($radius: 20px){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
 
 
 body { background: #262626; font-family: helvetica, sans-serif;}
@@ -16,6 +21,7 @@ p {margin: 20px $margin;}
 a { color: $blue;}
 
 .grad {
+    @include border-radius;
   padding: 1%;
   background-color: #F2EFEB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#fff));
