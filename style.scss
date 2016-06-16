@@ -3,10 +3,11 @@ $margin: 5%;
 $cream: #F2EFEB;
 $cream2: $cream - 100;
 
-@mixin border-radius($radius: 20px){
+@mixin border-radius($radius: 10px){
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
+  padding: 10px;
 }
 
 
@@ -31,6 +32,7 @@ a { color: $blue;}
   background-image: -o-linear-gradient(top, $cream, $cream2);
   .intro {background:  #333; @include border-radius;
   .part1 { color: $blue;
+
    a { font-size: 20px; background: $cream; @include border-radius(10px);}
    a:hover {background: $cream - 100;}
    }

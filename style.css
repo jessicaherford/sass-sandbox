@@ -17,9 +17,10 @@ a {
   color: #708C87; }
 
 .grad {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
   padding: 1%;
   background-color: #F2EFEB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#fff));
@@ -29,9 +30,10 @@ a {
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
   .grad .intro, .grad .feature {
     background: #333;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px; }
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px; }
     .grad .intro .part1, .grad .feature .part1 {
       color: #708C87; }
       .grad .intro .part1 a, .grad .feature .part1 a {
@@ -39,7 +41,8 @@ a {
         background: #F2EFEB;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        padding: 10px; }
       .grad .intro .part1 a:hover, .grad .feature .part1 a:hover {
         background: #8e8b87; }
   .grad .feature {
