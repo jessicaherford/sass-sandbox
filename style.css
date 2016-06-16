@@ -27,9 +27,22 @@ a {
   background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
-  .grad .part1 {
-    color: #708C87; }
-    .grad .part1 a {
-      font-size: 20px; }
+  .grad .intro, .grad .feature {
+    background: #333;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; }
+    .grad .intro .part1, .grad .feature .part1 {
+      color: #708C87; }
+      .grad .intro .part1 a, .grad .feature .part1 a {
+        font-size: 20px;
+        background: #F2EFEB;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px; }
+      .grad .intro .part1 a:hover, .grad .feature .part1 a:hover {
+        background: #8e8b87; }
+  .grad .feature {
+    border: 1px solid yellow; }
 
 /*# sourceMappingURL=style.css.map */
